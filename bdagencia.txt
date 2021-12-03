@@ -1,0 +1,17 @@
+CREATE DATABASE bdagencia;
+
+USE bdagencia;
+
+DROP TABLE IF EXISTS 'Empleado';
+
+CREATE TABLE Empleado;
+(
+Nombre TEXT(30),
+ApellidoPaterno TEXT(30),
+ApellidoMaterno TEXT(30),
+ID INT(10),
+Direccion VARCHAR(30),
+Correo VARCHAR(30),
+Telefono INT(10),
+PRIMARY KEY(ID)
+);
